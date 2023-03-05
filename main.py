@@ -23,7 +23,7 @@ def is_correct(guess, answer):
 
 def init_round():
 
-    word = get_hangul_word("wordslistUnique.txt")
+    word = get_hangul_word("words.txt")
     w.delete("1.0", tk.END)
     w.insert(tk.END, word)
     guess_entry.delete(0, tk.END)
